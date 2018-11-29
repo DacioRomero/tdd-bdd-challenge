@@ -107,7 +107,7 @@ it("Should remove items from cart", function() {
 
 it("Should update the count of items in the cart");
 
-it("Should remove an item when count is 0");
+it("Should validate that an empty cart has 0 items");
 
 it("Should return the total cost of all items in the cart", function() {
   const cart = generateCart();
